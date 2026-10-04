@@ -50,3 +50,30 @@ time to focus on that topic.
   and removing duplicates from a list
 - **Tuples:** `count()` and `index()`, indexing, slicing, concatenation,
   repetition, and conversion from a list
+
+## Looping through a dictionary
+
+Use `.items()` to access each key and value together:
+
+```python
+student = {
+    "name": "Alice",
+    "age": 21,
+    "course": "Computer Science",
+}
+
+for key, value in student.items():
+    print(key, "is", value)
+```
+
+Output:
+
+```text
+name is Alice
+age is 21
+course is Computer Science
+```
+
+You can also loop over just the keys with `student.keys()` or just the values
+with `student.values()`. Dictionary keys are unique, so assigning a value to
+the same key again replaces its earlier value.
