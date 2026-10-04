@@ -1,0 +1,14 @@
+{
+    "name": "Bob",
+    "details": {
+        "department": "IT",
+        "salary": 50000,
+        "children" :{"name1": "Alice", "name2": "xxx", "name3": "Mike"}
+    },
+    "name1": "Bob",
+    "details1": {
+        "department": "IT",
+        "salary": 50000,
+        "children" :{"name1": "Alice", "name2": "xxx", "name3": "Mike"}
+    }
+}
